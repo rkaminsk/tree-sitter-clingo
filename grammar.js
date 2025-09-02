@@ -26,7 +26,7 @@ module.exports = grammar({
         // comments
 
         line_comment: _$ => token(choice(
-            /%[^*].*/,
+            /%[^*\r\n].*/,
             '%'
         )),
         // TODO: clingo counts nested %* *% blocks
