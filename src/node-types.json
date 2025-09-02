@@ -2064,8 +2064,7 @@
   },
   {
     "type": "block_comment",
-    "named": true,
-    "extra": true
+    "named": true
   },
   {
     "type": "body",
@@ -2101,8 +2100,7 @@
   },
   {
     "type": "line_comment",
-    "named": true,
-    "extra": true
+    "named": true
   },
   {
     "type": "negative_identifier",
