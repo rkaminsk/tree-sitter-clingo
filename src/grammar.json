@@ -16,7 +16,7 @@
         "members": [
           {
             "type": "PATTERN",
-            "value": "%[^*].*"
+            "value": "%[^*\\r\\n].*"
           },
           {
             "type": "STRING",
@@ -4487,6 +4487,5 @@
   "precedences": [],
   "externals": [],
   "inline": [],
-  "supertypes": [],
-  "reserved": {}
+  "supertypes": []
 }
